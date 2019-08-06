@@ -1,8 +1,8 @@
-{% include head.html %}
+{% include head.md %}
 
     <h1>{{ page.title }}</h1>
     <h2>{{ page.subheading }}</h2>
 
     {{ content }}
-    {% include nav.html %}
-{% include foot.html %}
+    {% include nav.md %}
+{% include foot.md %}
