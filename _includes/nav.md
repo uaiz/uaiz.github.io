@@ -4,7 +4,7 @@
             {% if p.name != "main.scss" %}
                 {% if p.name != "/feed.xml" %}
                 <li>
-                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }} {{ p.name }}</a>
                 </li>
                 {% endif %}
             {% endif %}
